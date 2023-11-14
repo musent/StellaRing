@@ -24,7 +24,7 @@ a:active {
 } 
 
 body {
-  background-image: url(assets/purple-stars-bg.gif);
+  background-image: url(/assets/purple-stars-bg.gif);
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: #000;
@@ -34,5 +34,21 @@ body {
   min-height: 1000vh;
   display: block;
   margin: 0;
-  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.content {
+  max-width: 540px;
+  background-color:rgba(40, 48, 48, 0.75);
+  margin:18px auto 0px auto;
+  padding:  4px;
+  width: 95%;
+}
+
+.content p {
+    margin-left: 10px;
+    line-height: 1.5;
 }
