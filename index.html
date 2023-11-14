@@ -2,13 +2,14 @@
 title: stellaRing
 layout: html
 ---
+<div class="content">
 <h1>StellaRing</h1>
-<p>Here's where some text explaining the webring would go. I'm too lazy to write it all out, someone please make a commit with the needed text in here later.
-
-<p>If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub</a>.
+<p>Here's where some text explaining the webring would go. I'm too lazy to write it all out, someone please make a commit with the needed text in here later.</p>
+<p>If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub</a>.</p>
 
 <h2 id=members>Members ({{site.data.members.size}})</h2>
 <ul>
 {% for member in site.data.members %}
 <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
 </ul>
+</div>
