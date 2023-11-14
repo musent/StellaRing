@@ -1,0 +1,38 @@
+@font-face{
+  font-family: "FreePixel";
+  src: url(/assets/FreePixel.ttf);
+}
+
+ /* unvisited link */
+a:link {
+  color: rgb(0, 128, 128);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 128, 128);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(136, 221, 221);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 172, 230);
+} 
+
+body {
+  background-image: url(/assets/purple-stars-bg.gif);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #000;
+  font-family: FreePixel, monospace;
+  color: white;
+  font-size: medium;
+  min-height: 1000vh;
+  display: block;
+  margin: 0;
+  text-align: center;
+}
