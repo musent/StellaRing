@@ -52,3 +52,12 @@ div {
     margin-left: 10px;
     line-height: 1.5;
 }
+
+.footer {
+  max-width: 540px;
+  background-color:rgba(25, 25, 25, 0.25);
+  margin:18px auto 0px auto;
+  padding:  4px;
+  width: 95%;
+  text-align: center;
+}
